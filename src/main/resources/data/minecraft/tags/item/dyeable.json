@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "stardoms_colors:bundle",
+    "stardoms_colors:concrete_powder",
+    "stardoms_colors:terracotta",
+    "stardoms_colors:bricks",
+    "stardoms_colors:bed",
+    "stardoms_colors:wool",
+    "stardoms_colors:dyed_glass",
+    "stardoms_colors:dyed_glass_pane",
+    "stardoms_colors:candle",
+    "stardoms_colors:brick_slab",
+    "stardoms_colors:concrete_slab",
+    "stardoms_colors:terracotta_slab"
+  ]
+}

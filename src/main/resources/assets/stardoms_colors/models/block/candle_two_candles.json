@@ -1,0 +1,7 @@
+{
+  "parent": "stardoms_colors:block/template_two_candles",
+  "textures": {
+    "base": "stardoms_colors:block/candle_base",
+    "overlay": "stardoms_colors:block/candle_overlay"
+  }
+}

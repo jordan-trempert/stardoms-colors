@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "stardoms_colors:item/candle_base",
+    "layer1": "stardoms_colors:item/candle_overlay"
+  }
+}

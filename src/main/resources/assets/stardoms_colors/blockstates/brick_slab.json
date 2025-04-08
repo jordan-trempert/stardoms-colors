@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardoms_colors:block/brick_slab"
+    },
+    "type=double": {
+      "model": "stardoms_colors:block/bricks"
+    },
+    "type=top": {
+      "model": "stardoms_colors:block/brick_slab_top"
+    }
+  }
+}

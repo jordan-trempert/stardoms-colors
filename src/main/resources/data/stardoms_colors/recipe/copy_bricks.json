@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "input": "stardoms_colors:bricks",
+  "material": "minecraft:bricks",
+  "result": {
+    "id": "stardoms_colors:bricks",
+    "count": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "input": "stardoms_colors:wool",
+  "material": "#minecraft:wool",
+  "result": {
+    "id": "stardoms_colors:wool",
+    "count": 2
+  }
+}

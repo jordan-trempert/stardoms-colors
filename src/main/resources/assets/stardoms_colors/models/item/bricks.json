@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "stardoms_colors:block/undyed_bricks"
+  }
+}

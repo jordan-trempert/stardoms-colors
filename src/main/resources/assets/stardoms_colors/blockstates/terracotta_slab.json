@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardoms_colors:block/terracotta_slab"
+    },
+    "type=double": {
+      "model": "stardoms_colors:block/terracotta"
+    },
+    "type=top": {
+      "model": "stardoms_colors:block/terracotta_slab_top"
+    }
+  }
+}

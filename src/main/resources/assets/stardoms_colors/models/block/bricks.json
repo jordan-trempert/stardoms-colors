@@ -1,0 +1,34 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "bricks": "stardoms_colors:block/undyed_bricks_base",
+    "overlay": "stardoms_colors:block/undyed_bricks",
+    "particle": "#bricks"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"texture": "#bricks", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "east": {"texture": "#bricks", "uv": [0, 0, 16, 16],"tintindex": 0},
+        "south": {"texture": "#bricks", "uv": [0, 0, 16, 16],"tintindex": 0},
+        "west": {"texture": "#bricks", "uv": [0, 0, 16, 16],"tintindex": 0},
+        "up": {"texture": "#bricks", "uv": [0, 0, 16, 16],"tintindex": 0},
+        "down": {"texture": "#bricks", "uv": [0, 0, 16, 16],"tintindex": 0}
+      }
+    },
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "north": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "east": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "south": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "west": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "up": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0},
+        "down": {"texture": "#overlay", "uv": [0, 0, 16, 16], "tintindex": 0}
+      }
+    }
+  ]
+}

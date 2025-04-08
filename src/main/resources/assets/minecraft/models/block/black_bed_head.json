@@ -1,0 +1,9 @@
+
+{
+  "parent": "minecraft:block/template_bed_head",
+  "textures": {
+    "bed": "stardoms_colors:block/bed",
+    "overlay": "stardoms_colors:block/bed_overlay"
+
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "input": "stardoms_colors:bed",
+  "material": "#minecraft:beds",
+  "result": {
+    "id": "stardoms_colors:bed",
+    "count": 2
+  }
+}

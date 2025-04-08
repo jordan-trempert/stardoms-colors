@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_transmute",
+  "category": "building",
+  "input": "minecraft:bundle",
+  "material": "#stardoms_colors:dyes",
+  "result": {
+    "id": "stardoms_colors:bundle"
+  }
+}

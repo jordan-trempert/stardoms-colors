@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "stardoms_colors:block/concrete_slab"
+    },
+    "type=double": {
+      "model": "stardoms_colors:block/concrete"
+    },
+    "type=top": {
+      "model": "stardoms_colors:block/concrete_slab_top"
+    }
+  }
+}

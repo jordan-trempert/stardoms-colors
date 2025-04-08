@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "stardoms_colors",
+  "version": "${version}",
+  "name": "Stardoms Colors",
+  "description": "Allows more customizable dying of certain blocks",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/stardoms_colors/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.stardomga.stardoms_colors.client.Stardoms_colorsClient"
+    ],
+    "main": [
+      "net.stardomga.stardoms_colors.Stardoms_colors"
+    ]
+  },
+  "mixins": [
+    "stardoms_colors.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.stardomga.stardoms_colors.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedBlockMixin",
+    "FallingBlockEntityMixin",
+    "ItemMixin",
+    "SingleStackRecipeMixin"
+  ],
+  "client": [
+    "FallingBlockEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

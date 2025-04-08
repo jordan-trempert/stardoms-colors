@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "overlay_bottom": "stardoms_colors:block/undyed_bricks_base",
+    "overlay_side": "stardoms_colors:block/undyed_bricks_base",
+    "overlay_top": "stardoms_colors:block/undyed_bricks_base",
+    "bottom": "stardoms_colors:block/undyed_bricks",
+    "side": "stardoms_colors:block/undyed_bricks",
+    "top": "stardoms_colors:block/undyed_bricks"
+  }
+}

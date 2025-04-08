@@ -1,0 +1,79 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "overlay_bottom": "stardoms_colors:block/undyed_bricks_base",
+    "overlay_side": "stardoms_colors:block/undyed_bricks_base",
+    "overlay_top": "stardoms_colors:block/undyed_bricks_base",
+    "bottom": "stardoms_colors:block/undyed_bricks",
+    "side": "stardoms_colors:block/undyed_bricks",
+    "top": "stardoms_colors:block/undyed_bricks"
+  },
+  "elements": [
+    {
+      "from": [0, 8, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "tintindex": 0
+        },
+        "up": {
+          "texture": "#top",
+          "tintindex": 0
+        },
+        "north": {
+          "texture": "#side",
+          "tintindex": 0
+        },
+        "south": {
+          "texture": "#side",
+          "tintindex": 0
+        },
+        "west": {
+          "texture": "#side",
+          "tintindex": 0
+        },
+        "east": {
+          "texture": "#side",
+          "tintindex": 0
+        }
+      }
+    },
+    {
+      "from": [0, 8, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": {
+          "texture": "#overlay_bottom",
+          "tintindex": 0,
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#overlay_top",
+          "tintindex": 0,
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#overlay_side",
+          "tintindex": 0,
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#overlay_side",
+          "tintindex": 0,
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#overlay_side",
+          "tintindex": 0,
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#overlay_side",
+          "tintindex": 0,
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "stardoms_colors:concrete",
+    "stardoms_colors:terracotta",
+    "stardoms_colors:bricks",
+    "stardoms_colors:concrete_slab",
+    "stardoms_colors:brick_slab",
+    "stardoms_colors:terracotta_slab"
+  ]
+}

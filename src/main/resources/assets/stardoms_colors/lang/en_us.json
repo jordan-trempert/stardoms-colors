@@ -1,0 +1,15 @@
+{
+  "block.stardoms_colors.wool" : "Dyed Wool",
+  "block.stardoms_colors.concrete_powder" : "Dyed Concrete Powder",
+  "block.stardoms_colors.concrete" : "Dyed Concrete",
+  "block.stardoms_colors.dyed_glass" : "Dyed Glass",
+  "block.stardoms_colors.dyed_glass_pane" : "Dyed Glass Pane",
+  "block.stardoms_colors.bricks" : "Dyed Bricks",
+  "block.stardoms_colors.terracotta" : "Dyed Terracotta",
+  "block.stardoms_colors.bed" : "Dyed Bed",
+  "item.stardoms_colors.bundle" : "Dyed Bundle",
+  "block.stardoms_colors.candle" : "Dyed Candle",
+  "block.stardoms_colors.concrete_slab" : "Dyed Concrete Slab",
+  "block.stardoms_colors.brick_slab" : "Dyed Brick Slab",
+  "block.stardoms_colors.terracotta_slab" : "Dyed Terracotta Slab"
+}

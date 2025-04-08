@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/bed",
+  "textures": {
+    "bed": "stardoms_colors:block/bed",
+    "overlay": "stardoms_colors:block/bed_overlay"
+  }
+}

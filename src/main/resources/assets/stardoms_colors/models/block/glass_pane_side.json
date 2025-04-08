@@ -1,0 +1,7 @@
+{
+  "parent": "stardoms_colors:block/template_glass_pane_side",
+  "textures": {
+    "edge": "minecraft:block/glass_pane_top",
+    "pane": "minecraft:block/white_stained_glass"
+  }
+}

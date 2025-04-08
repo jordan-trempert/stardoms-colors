@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "model",
+    "model": "stardoms_colors:block/terracotta_slab",
+    "tints": [
+      {
+        "type": "dye",
+        "default": [1, 1, 1]
+      }
+    ]
+  }
+}

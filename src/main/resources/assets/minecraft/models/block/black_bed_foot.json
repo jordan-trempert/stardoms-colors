@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_bed_foot",
+  "textures": {
+    "bed": "stardoms_colors:block/bed",
+    "overlay": "stardoms_colors:block/bed_overlay"
+  }
+}
