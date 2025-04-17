@@ -32,12 +32,18 @@ public class ModItems {
     public static final Item DYED_GLASS_PANE = register(ModBlocks.DYED_GLASS_PANE, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 4);
     public static final Item BRICKS = register(ModBlocks.BRICKS, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 5);
     public static final Item BRICK_SLAB = register(ModBlocks.BRICK_SLAB, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 10);
+    public static final Item BRICK_STAIR = register(ModBlocks.BRICK_STAIR, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 12);
+    public static final Item BRICK_WALL = register(ModBlocks.BRICK_WALL, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 12);
     public static final Item BED = register(ModBlocks.BED, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 6);
     public static final Item TERRACOTTA = register(ModBlocks.TERRACOTTA, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 7);
     public static final Item TERRACOTTA_SLAB = register(ModBlocks.TERRACOTTA_SLAB, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 11);
+    public static final Item TERRACOTTA_STAIR = register(ModBlocks.TERRACOTTA_STAIR, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 14);
+    public static final Item TERRACOTTA_WALL = register(ModBlocks.TERRACOTTA_WALL, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 14);
     public static final Item BUNDLE = register("bundle", (settings) -> {return new BundleItem(settings.component(DataComponentTypes.DYED_COLOR, new DyedColorComponent(9722929)).maxCount(1).component(DataComponentTypes.BUNDLE_CONTENTS, BundleContentsComponent.DEFAULT));});
     public static final Item CANDLE = register(ModBlocks.CANDLE, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 8);
     public static final Item CONCRETE_SLAB = register(ModBlocks.CONCRETE_SLAB, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 9);
+    public static final Item CONCRETE_STAIR = register(ModBlocks.CONCRETE_STAIR, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 13);
+    public static final Item CONCRETE_WALL = register(ModBlocks.CONCRETE_WALL, new Item.Settings().component(DataComponentTypes.DYED_COLOR,new DyedColorComponent(0xFFFFFF)), 13);
 
     // Helper method to register items
     private static RegistryKey<Item> keyOf(String id) {
@@ -91,6 +97,15 @@ public class ModItems {
         }
         else if(in == 11){
             return register(block, TerracottaSlabBlockItem::new, settings);
+        }
+        else if(in == 12){
+            return register(block, BrickStairsBlockItem::new, settings);
+        }
+        else if(in == 13){
+            return register(block, ConcreteStairsBlockItem::new, settings);
+        }
+        else if(in == 14){
+            return register(block, TerracottaStairsBlockItem::new, settings);
         }
         return register(block, WoolBlockItem::new, settings);
     }

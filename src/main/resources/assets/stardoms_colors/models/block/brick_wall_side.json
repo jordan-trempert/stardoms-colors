@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "stardoms_colors:block/undyed_bricks_item"
+  }
+}

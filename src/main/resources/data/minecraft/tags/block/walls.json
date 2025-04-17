@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "stardoms_colors:brick_wall",
+    "stardoms_colors:concrete_wall",
+    "stardoms_colors:terracotta_wall"
+  ]
+}

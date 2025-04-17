@@ -86,6 +86,42 @@ public class StardomsColorsBlockEntityTypes {
                 FabricBlockEntityTypeBuilder.create(TerracottaSlabBlockEntity::new, ModBlocks.TERRACOTTA_SLAB).build()
         );
 
+    public static final BlockEntityType<ConcreteStairBlockEntity> CONCRETE_STAIR = register(
+            "concrete_stair",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(ConcreteStairBlockEntity::new, ModBlocks.CONCRETE_STAIR).build()
+    );
+
+    public static final BlockEntityType<BrickStairBlockEntity> BRICK_STAIR = register(
+            "brick_stair",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(BrickStairBlockEntity::new, ModBlocks.BRICK_STAIR).build()
+    );
+
+    public static final BlockEntityType<TerracottaStairBlockEntity> TERRACOTTA_STAIR = register(
+            "terracotta_stair",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(TerracottaStairBlockEntity::new, ModBlocks.TERRACOTTA_STAIR).build()
+    );
+
+    public static final BlockEntityType<ConcreteWallBlockEntity> CONCRETE_WALL = register(
+            "concrete_wall",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(ConcreteWallBlockEntity::new, ModBlocks.CONCRETE_WALL).build()
+    );
+
+    public static final BlockEntityType<BrickWallBlockEntity> BRICK_WALL = register(
+            "brick_wall",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(BrickWallBlockEntity::new, ModBlocks.BRICK_WALL).build()
+    );
+
+    public static final BlockEntityType<TerracottaWallBlockEntity> TERRACOTTA_WALL = register(
+            "terracotta_wall",
+            // For versions before 1.21.2, please use BlockEntityType.Builder.
+            FabricBlockEntityTypeBuilder.create(TerracottaWallBlockEntity::new, ModBlocks.TERRACOTTA_WALL).build()
+    );
+
 
     public static void initialize() {
     }

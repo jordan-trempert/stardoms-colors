@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/inner_stairs_overlay",
+  "textures": {
+    "bottom": "stardoms_colors:block/undyed_bricks_base",
+    "side": "stardoms_colors:block/undyed_bricks_base",
+    "top": "stardoms_colors:block/undyed_bricks_base",
+    "overlay": "stardoms_colors:block/undyed_bricks"
+
+  }
+}

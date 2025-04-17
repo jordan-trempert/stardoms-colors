@@ -28,6 +28,11 @@ public class ModBlockColorProvider {
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.CONCRETE_SLAB);
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.BRICK_SLAB);
         ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.TERRACOTTA_SLAB);
-
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.CONCRETE_STAIR);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.BRICK_STAIR);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.TERRACOTTA_STAIR);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.CONCRETE_WALL);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.BRICK_WALL);
+        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> view != null && view.getBlockEntityRenderData(pos) instanceof Integer integer ? integer : 0xFFFFFF, ModBlocks.TERRACOTTA_WALL);
     }
 }

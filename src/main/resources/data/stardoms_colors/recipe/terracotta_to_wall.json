@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "stardoms_colors:terracotta"
+  ],
+  "result": {
+    "id": "stardoms_colors:terracotta_wall",
+    "count": 1
+  }
+}

@@ -10,6 +10,12 @@
   "item.stardoms_colors.bundle" : "Dyed Bundle",
   "block.stardoms_colors.candle" : "Dyed Candle",
   "block.stardoms_colors.concrete_slab" : "Dyed Concrete Slab",
+  "block.stardoms_colors.concrete_stair" : "Dyed Concrete Stairs",
+  "block.stardoms_colors.concrete_wall" : "Dyed Concrete Wall",
   "block.stardoms_colors.brick_slab" : "Dyed Brick Slab",
-  "block.stardoms_colors.terracotta_slab" : "Dyed Terracotta Slab"
+  "block.stardoms_colors.brick_stair" : "Dyed Brick Stairs",
+  "block.stardoms_colors.brick_wall" : "Dyed Brick Wall",
+  "block.stardoms_colors.terracotta_slab" : "Dyed Terracotta Slab",
+  "block.stardoms_colors.terracotta_stair" : "Dyed Terracotta Stairs",
+  "block.stardoms_colors.terracotta_wall" : "Dyed Terracotta Wall"
 }

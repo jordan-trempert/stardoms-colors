@@ -1,7 +1,7 @@
 {
   "model": {
     "type": "model",
-    "model": "stardoms_colors:block/brick_slab_item",
+    "model": "stardoms_colors:block/concrete_stair_item",
     "tints": [
       {
         "type": "dye",

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "stardoms_colors:block/undyed_bricks_item",
+    "side": "stardoms_colors:block/undyed_bricks_item",
+    "top": "stardoms_colors:block/undyed_bricks_item"
+  }
+}
