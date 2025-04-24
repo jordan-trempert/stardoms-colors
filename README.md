@@ -15,6 +15,6 @@ The current list of dyeable blocks are the following:
 - Bundles (combine bundle with a dye in a crafting table)
 
 This mod also adds the following blocks which can be created by taking their corresponding base block and putting it in a Stonecutter:
-- Terracotta Slabs
-- Concrete Slabs
-- (Stairs, walls, etc. planed for future updates)
+- Terracotta Slabs, Stairs, and Walls
+- Concrete Slabs, Stairs, and Walls
+- Brick Slabs, Stairs, and Walls
