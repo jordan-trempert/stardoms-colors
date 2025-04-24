@@ -4,6 +4,7 @@
   "package": "net.stardomga.stardoms_colors.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+    "BeaconBlockEntityMixin",
     "BedBlockMixin",
     "FallingBlockEntityMixin",
     "ItemMixin",

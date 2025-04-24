@@ -4,7 +4,9 @@ import com.mojang.serialization.MapCodec;
 import net.minecraft.block.BlockRenderType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.BlockWithEntity;
+import net.minecraft.block.Stainable;
 import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.component.DataComponentTypes;
 import net.minecraft.component.type.DyedColorComponent;
 import net.minecraft.entity.ItemEntity;
@@ -12,21 +14,26 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.DyeItem;
 import net.minecraft.item.ItemStack;
+import net.minecraft.server.MinecraftServer;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.DyeColor;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.ColorHelper;
+import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import net.stardomga.stardoms_colors.block.entity.ColoredBlockEntity;
 import net.stardomga.stardoms_colors.block.entity.DyedGlassBlockEntity;
+import net.stardomga.stardoms_colors.util.DyeColorHelper;
 import org.jetbrains.annotations.Nullable;
 
-public class DyedGlassBlock extends BlockWithEntity {
+public class DyedGlassBlock extends BlockWithEntity implements Stainable {
     public DyedGlassBlock(Settings settings) {
         super(settings);
     }
+
 
     @Override
     protected MapCodec<? extends DyedGlassBlock> getCodec() {
@@ -118,5 +125,11 @@ public class DyedGlassBlock extends BlockWithEntity {
         }
     }
 
-    
+
+    @Override
+    public DyeColor getColor() {
+        return DyeColor.PURPLE;  // Fallback color if no block entity found
+    }
+
+
 }
